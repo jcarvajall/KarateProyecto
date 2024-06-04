@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunnerAll
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.692 s <<< FAILURE! - in runners.RunnerAll
+runners.RunnerAll.testParallel  Time elapsed: 0.674 s  <<< ERROR!
+java.lang.RuntimeException: not found: features/ConsultaPersonajes.feature
+	at runners.RunnerAll.testParallel(RunnerAll.java:23)
+

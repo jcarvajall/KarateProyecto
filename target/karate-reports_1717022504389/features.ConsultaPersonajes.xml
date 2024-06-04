@@ -1,0 +1,9 @@
+<testsuite failures="0" name="features/ConsultaPersonajes.feature" skipped="0" tests="1" time="1.000918"><testcase classname="features.ConsultaPersonajes" name="Consultar personajes en la página 1" time="1.000918"><system-out>* url 'https://rickandmortyapi.com/api' ................................... passed
+Given path 'character' .................................................... passed
+And param page = 1 ........................................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match response.results[0].name == 'Rick Sanchez' ...................... passed
+And match response.results[0].status == 'Alive' ........................... passed
+</system-out></testcase>
+</testsuite>
